@@ -1,4 +1,4 @@
-# 🧠 Natural Language to SQL Query Generator
+# Natural Language to SQL Query Generator
 
 This project demonstrates a streamlined NLP-to-SQL pipeline that converts layman-style user queries into executable SQL queries using rule-based logic and a large language model (LLaMA 3). Built with **FastAPI** and **SQLite**, it serves as a learning project for database-driven query systems enhanced by large language models.
 
@@ -19,16 +19,16 @@ This project demonstrates a streamlined NLP-to-SQL pipeline that converts layman
 
 ---
 
-## 🚀 Features
+## Features
 
-- 🔎 Converts natural language queries into SQL  
-- 🧱 Uses SQLite for backend database  
-- 🤖 Employs LLaMA 3 via Ollama for SQL generation  
-- 📊 Outputs tabular results and a brief summary  
+- Converts natural language queries into SQL  
+- Uses SQLite for backend database  
+- Employs LLaMA 3 via Ollama for SQL generation  
+- Outputs tabular results and a brief summary  
 
 ---
 
-## 💡 Example
+## Example
 
 - **Input (User Query):**
 
@@ -50,7 +50,7 @@ This project demonstrates a streamlined NLP-to-SQL pipeline that converts layman
 
 ---
 
-## 🧰 Tech Stack
+## Tech Stack
 
 | Component     | Technology            |
 |---------------|------------------------|

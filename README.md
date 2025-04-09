@@ -7,11 +7,13 @@ This project demonstrates a streamlined NLP-to-SQL pipeline that converts layman
 ## 📁 Project Structure
 
 ```
-├── main.py           
-├── sql_engine.py     
+├── app.py           
+├── sqldatabase/
+|   └── sql_dbconnection.py    
 ├── configs/
 │   └── attributes.py 
-├── TariqueDB.db     
+├── TariqueDB.db
+├── requirements.txt    
 └── README.md
 ```
 

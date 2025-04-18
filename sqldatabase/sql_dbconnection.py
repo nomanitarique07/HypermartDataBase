@@ -110,7 +110,7 @@ def generate_sql_with_llm(user_query: str) -> str:
         #response = ollama.chat(model="llama3", messages=[{"role": "user", "content": prompt}])
         #sql_text = response['message']['content'].strip()
         sql_text = response.response
-        print(":::sql_text:::",sql_text)
+        print("::sql_text::",sql_text)
         if not sql_text.lower().startswith("select"):
             raise ValueError("LLM did not return a valid SQL SELECT query.")
         return sql_text
